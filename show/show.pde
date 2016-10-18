@@ -2,6 +2,7 @@ float i =0;
 void setup(){
   size(800,600);
   rectMode(CENTER);
+  fill(#FF0000);
 }
 void draw(){
   background(0);
