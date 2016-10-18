@@ -1,5 +1,5 @@
 
-/* @pjs preload="Data/"Ungrateful-Frog.jpg; */
+@pjs preload="Data/Ungrateful-Frog.jpg"; 
 
 final float w = 100,
             h = 100;
