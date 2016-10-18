@@ -25,7 +25,7 @@ void setup(){
 }
 
 void resetY(){
-  println("reset y");
+  //println("reset y");
   y=h/2.0;
   vY=0;
   lastYDirection=1;
@@ -49,12 +49,12 @@ void updateSpeedPos(){
 }
 
 boolean oscillating(){
-  println(abs(inflectionIndex[0]-inflectionIndex[1]));
+  //println(abs(inflectionIndex[0]-inflectionIndex[1]));
   return abs(inflectionIndex[0]-inflectionIndex[1]) < epsilon;
 }
 
 boolean yBounced(){
-  println("ybounce");
+  //println("ybounce");
   return (y>=height-h/2.0 && vY>0);
 }
 void yBounce(){
