@@ -1,5 +1,3 @@
-@pjs preload="Data/Ungrateful-Frog.jpg"; 
-
 final float w = 100,
             h = 100;
 
@@ -23,7 +21,6 @@ void setup(){
   rectMode(CENTER);
   imageMode(CENTER);
   resetY();
-  img = loadImage("Ungrateful-Frog.jpg");
 }
 
 void resetY(){
@@ -81,7 +78,10 @@ void draw(){
   translate(x,y);
   pushMatrix();
   rotate(ang);
-  image(img, 0, 0, w,h);
+  fill(#FFFF00);
+  ellipse(0,0,w,h);
+  fill(#0000FF);
+  rect(0, 0, w*0.7,h*0.7);
   popMatrix();
   popMatrix();
   updateSpeedPos();
