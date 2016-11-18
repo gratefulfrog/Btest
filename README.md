@@ -34,6 +34,10 @@ $ git push --set-upstream origin gh-pages
     ````
 6. return to master branch for more work: `$ git checkout master`
 
+# Viewing
+
+The web visualization for repo named REPO:  `https://gratefulfrog.github.io/REPO/index.html`
+
 # Maybe write a script to automate all that?
 
 # Use credentials to avoid typing passwords (for 1 year)
