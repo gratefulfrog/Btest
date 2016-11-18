@@ -21,7 +21,7 @@ $ git push --set-upstream origin gh-pages
 
 ## Loop
 
-1. do work in master branch: `get checkout master`
+1. do work in master branch: `git checkout master`
 2. add files to master: `$ git add <other stuff, not the stuff that is only in gh-pages>`
 3. commit to master: `$ git commit -a -m "changed or added stuff to master"`
 4. push to master: `$ git push --set-upstream origin master`
