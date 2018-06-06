@@ -1,4 +1,7 @@
 # Btest
+
+Following Microsoft's purchase of Github, this project has migrated to gitlab.
+
 # Testing Devt. with gh-pages branch
 
 I'm trying to find a way of using the gh-pages branch to have a website, while 
